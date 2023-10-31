@@ -599,7 +599,8 @@ export const AddusersIDP = ({ id }: { id: string }) => {
         intro=""
         closeWithIcon={true}
         onCloseWithIcon={() => {
-          userResponse?.data ? storeResponse('') : dispatch(closeOverlay())
+          storeResponse('')
+          dispatch(closeOverlay())
         }}
       />
       <DialogContent>
