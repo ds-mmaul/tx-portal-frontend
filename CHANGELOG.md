@@ -1,5 +1,12 @@
 # Changelog
 
+## unreleased 1.8.0-RC6
+
+### Bugfix
+
+- User Invite IdP
+  - Blocked user invite if multiple SHARED/OWN identityProviderTypeId
+
 ## unreleased 1.8.0-RC5
 
 ### Bugfix
@@ -19,8 +26,6 @@
   - handle navigation as per applicationType and applicationStatus
 - App Management
   - Template file encoding updated for 'technical integration' and 'add roles overlay' and deleted previos template
-- User Invite IdP
-  - Blocked user invite if multiple SHARED/OWN identityProviderTypeId
 
 ## 1.8.0-RC4
 
